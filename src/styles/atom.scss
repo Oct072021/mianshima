@@ -1,0 +1,36 @@
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.gap {
+  gap: 10px
+}
+
+.grow {
+  flex: 1;
+}
+
+.border_box {
+  box-sizing: border-box;
+}
+
+.red {
+  color: rgb(245, 101, 101);
+}
+
+.blue {
+  color: rgb(90, 156, 248);
+}

@@ -1,0 +1,12 @@
+@import './variables.scss';
+@import './layout.scss';
+@import './element.scss';
+@import './theme.scss';
+@import './dark.scss';
+
+.el-dropdown-link {
+  display: flex;
+  align-items: center;
+  line-height: normal;
+  margin-left: 10px;
+}

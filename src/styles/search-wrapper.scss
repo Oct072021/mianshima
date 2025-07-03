@@ -1,0 +1,17 @@
+.search-wrapper {
+  > .el-form-item {
+    margin-bottom: 10px;
+  }
+  > .el-form-item > .el-form-item__content > .el-input,
+  > .el-form-item > .el-form-item__content > .el-select {
+    width: 180px;
+  }
+
+  > .el-form-item > .el-form-item__content > .el-date-editor--daterange {
+    width: 240px;
+  }
+
+  > .el-form-item > .el-form-item__content > .el-date-editor--datetimerange {
+    width: 380px;
+  }
+}
